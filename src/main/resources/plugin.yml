@@ -1,0 +1,20 @@
+name: BotShield
+version: '${project.version}'
+support: 'http://localhost:3000/support'
+main: org.filps.botshield.BotShield
+api-version: '1.15'
+commands:
+  botshield:
+    description: "BotShield commands"
+    usage: "/botshield <reload|help>"
+    permission: "botshield.use"
+permissions:
+  botshield.reload:
+    description: Reloading configuration
+    default: op
+  botshield.help:
+    description: Display help message
+    default: true
+  botshield.use:
+    description: General BotShield command use
+    default: op
