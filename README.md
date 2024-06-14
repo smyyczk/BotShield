@@ -9,4 +9,4 @@ Antibot system for minecraft.
 5. Go to plugins folder > BotShield (folder) > config.yml and get apikey from our website https://botshield.filps.software/
 
 # Compatible versions
-SPIGOT: 1.16.5 
+SPIGOT: 1.8.x - 1.20.x
